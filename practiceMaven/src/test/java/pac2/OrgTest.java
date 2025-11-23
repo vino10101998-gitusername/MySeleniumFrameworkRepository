@@ -18,4 +18,9 @@ public class OrgTest {
 	public void createOrgWithEmailTest() {
 		System.out.println("Execute create org with email test");
 	}
+	
+	@Test
+	public void deleteOrg() {
+		System.out.println("Delete org test");
+	}
 }
