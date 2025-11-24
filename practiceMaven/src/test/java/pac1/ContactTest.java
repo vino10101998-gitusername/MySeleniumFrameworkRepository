@@ -6,6 +6,10 @@ public class ContactTest {
 
 	@Test
 	public void createContactTest() {
+		String url = System.getProperty("url");	
+		String browser = System.getProperty("browser");
+		System.out.println(url);
+		System.out.println(browser);
 		System.out.println("Execute create contact test");
 	}
 	
