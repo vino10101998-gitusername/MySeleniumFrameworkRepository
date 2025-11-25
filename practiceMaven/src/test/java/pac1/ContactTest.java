@@ -22,4 +22,10 @@ public class ContactTest {
 	public void createContactWithOrgTest() {
 		System.out.println("Execute create contact with org test");
 	}
+	
+	@Test
+	public void deleteContact() {
+		System.out.println("Delete contact test..");
+	}
+	
 }
